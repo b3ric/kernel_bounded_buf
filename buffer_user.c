@@ -3,7 +3,10 @@
 #include "buffer.h"
 #include <string.h>
 #include <semaphore.h>
-
+#include <time.h>
+#include <pthread.h>
+//
+#define THREAD_COUNT 8
 
 static ring_buffer_421_t buffer;
 static sem_t mutex;
@@ -11,12 +14,18 @@ static sem_t fill_count;
 static sem_t empty_count;
 
 long init_buffer_421(void) {
-	// Note: You will need to initialize semaphores in this function.
+	
 	// Ensure we're not initializing a buffer that already exists.
 	if (buffer.read || buffer.write) {
 		printf("init_buffer_421(): Buffer already exists. Aborting.\n");
 		return -1;
 	}
+	
+	// Initializing semaphores.
+	
+	sem_init(&mutex, 0, 1);
+    sem_init(&empty_count, 0, SIZE_OF_BUFFER);
+    sem_init(&fill_count, 0, 0);
 
 	// Create the root node.
 	node_421_t *node;
@@ -48,10 +57,16 @@ long enqueue_buffer_421(char * data) {
 		printf("write_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
+	
+	sem_wait(&empty_count);
+	sem_wait(&mutex);
 	memcpy(buffer.write->data, data, DATA_LENGTH);
 	// Advance the pointer.
 	buffer.write = buffer.write->next;
 	buffer.length++;
+	
+	sem_post(&fill_count);
+	sem_post(&mutex);
 
 	return 0;
 }
@@ -68,6 +83,9 @@ long dequeue_buffer_421(char * data) {
 		return -1; // FOR NOW... LATER BLOCK USING SEMAPHORE
 	}
 	
+	sem_wait(&fill_count);
+	sem_wait(&mutex);
+	
 	// Copies 1024 bytes from the read node into the provided buffer data.
 	memcpy(data,buffer.read->data, DATA_LENGTH);
 	
@@ -75,7 +93,9 @@ long dequeue_buffer_421(char * data) {
 	buffer.read = buffer.read->next;
 	buffer.length--;
 	
-	//TODO: SEMAPHORE STUFF!
+	sem_post(&mutex);
+	sem_post(&empty_count);
+	
 	
 	return 0;
 }
@@ -135,31 +155,40 @@ int main(void)
 {
 	
 	init_buffer_421();
+	srand(time(NULL));
+	pthread_t th[THREAD_COUNT];
 	
 	char dequeue[DATA_LENGTH];
 	int i;
+	
 	const char *arr[SIZE_OF_BUFFER] = {"01", "02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20"};
 	
-	// FILL UP BUFFER
-	for (i = 0; i < SIZE_OF_BUFFER; i++){
-		enqueue_buffer_421(arr[i]);
-	}
 	
-	// Hey Jason, it'd be nice if you could try to break this with some odd cases..
-	
-	print_buffer_421();
-	dequeue_buffer_421(dequeue);
-	dequeue_buffer_421(dequeue);
-	enqueue_buffer_421("21"); // new ones (should take place of dequeued guys)
-	enqueue_buffer_421("22"); // new ones  (should take place of dequeued guys)
-	dequeue_buffer_421(dequeue);
-	dequeue_buffer_421(dequeue);
-	dequeue_buffer_421(dequeue);
-	print_buffer_421();
+	for (i = 0; i < THREAD_COUNT; i++) {
+        if (i > 0) {
+            if (pthread_create(&th[i], NULL, &enqueue_buffer_421, arr[rand() % SIZE_OF_BUFFER]) != 0) {
+                perror("Failed to create thread");
+            }
+			print_buffer_421();
+			print_semaphores();
+        } else {
+            if (pthread_create(&th[i], NULL, &dequeue_buffer_421, &dequeue) != 0) {
+                perror("Failed to create thread");
+            }
+			print_buffer_421();
+			print_semaphores();
+        }
+    }
+    for (i = 0; i < THREAD_COUNT; i++) {
+        if (pthread_join(th[i], NULL) != 0) {
+            perror("Failed to join thread");
+        }
+    }
+	sem_destroy(&empty_count);
+	sem_destroy(&fill_count);
+	sem_destroy(&mutex);
 	
 	delete_buffer_421();
-	
-	//valgrind shouldn't leak - check!
 	
 	return 0;
 }
