@@ -5,7 +5,7 @@
 #include <semaphore.h>
 #include <time.h>
 #include <pthread.h>
-//
+
 #define THREAD_COUNT 8
 
 static ring_buffer_421_t buffer;
@@ -58,15 +58,19 @@ long enqueue_buffer_421(char * data) {
 		return -1;
 	}
 	
+	print_buffer_421();
+	print_semaphores();
+	
 	sem_wait(&empty_count);
 	sem_wait(&mutex);
+	
 	memcpy(buffer.write->data, data, DATA_LENGTH);
 	// Advance the pointer.
 	buffer.write = buffer.write->next;
 	buffer.length++;
 	
-	sem_post(&fill_count);
 	sem_post(&mutex);
+	sem_post(&fill_count);
 
 	return 0;
 }
@@ -82,6 +86,9 @@ long dequeue_buffer_421(char * data) {
 	if (buffer.length == 0){
 		return -1; // FOR NOW... LATER BLOCK USING SEMAPHORE
 	}
+		
+	print_buffer_421();
+	print_semaphores();
 	
 	sem_wait(&fill_count);
 	sem_wait(&mutex);
@@ -147,8 +154,8 @@ void print_buffer_421(void){
 		temp = temp->next;
 	}
 	
-	printf("Read points to %p\n", buffer.read);
-	printf("Write points to %p\n", buffer.write);
+	//printf("Read points to %p\n", buffer.read);
+	//printf("Write points to %p\n", buffer.write);
 }
 
 int main(void)
@@ -159,24 +166,26 @@ int main(void)
 	pthread_t th[THREAD_COUNT];
 	
 	char dequeue[DATA_LENGTH];
-	int i;
+	int i, time;
 	
 	const char *arr[SIZE_OF_BUFFER] = {"01", "02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20"};
 	
 	
 	for (i = 0; i < THREAD_COUNT; i++) {
-        if (i > 0) {
+        if (i % 2 == 0) {
+			// sleep
+			time = rand() % 100;
+			usleep(time);
             if (pthread_create(&th[i], NULL, &enqueue_buffer_421, arr[rand() % SIZE_OF_BUFFER]) != 0) {
                 perror("Failed to create thread");
             }
-			print_buffer_421();
-			print_semaphores();
         } else {
+			//sleep here
+			time = rand() % 100;
+			usleep(time);
             if (pthread_create(&th[i], NULL, &dequeue_buffer_421, &dequeue) != 0) {
                 perror("Failed to create thread");
             }
-			print_buffer_421();
-			print_semaphores();
         }
     }
     for (i = 0; i < THREAD_COUNT; i++) {
