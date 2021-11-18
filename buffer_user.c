@@ -5,13 +5,18 @@
 #include <semaphore.h>
 #include <time.h>
 #include <pthread.h>
+#include <unistd.h>
 
-#define THREAD_COUNT 8
+#define THREAD_COUNT 100000
 
 static ring_buffer_421_t buffer;
 static sem_t mutex;
 static sem_t fill_count;
 static sem_t empty_count;
+static int enqueue_char = 48; // ASCII for '0'
+
+void print_buffer_421(void);
+char* prep_string(void);
 
 long init_buffer_421(void) {
 	
@@ -58,16 +63,21 @@ long enqueue_buffer_421(char * data) {
 		return -1;
 	}
 	
-	print_buffer_421();
-	print_semaphores();
+	//print_buffer_421();
 	
 	sem_wait(&empty_count);
 	sem_wait(&mutex);
+	//print_semaphores();
+	
+	printf(":: Enqueueing element into buffer. ::\n");
 	
 	memcpy(buffer.write->data, data, DATA_LENGTH);
 	// Advance the pointer.
 	buffer.write = buffer.write->next;
 	buffer.length++;
+	
+	printf("%s\n", data);
+	printf("%d items in the buffer.\n", buffer.length);
 	
 	sem_post(&mutex);
 	sem_post(&fill_count);
@@ -87,18 +97,24 @@ long dequeue_buffer_421(char * data) {
 		return -1; // FOR NOW... LATER BLOCK USING SEMAPHORE
 	}
 		
-	print_buffer_421();
-	print_semaphores();
+	//print_buffer_421();
 	
 	sem_wait(&fill_count);
 	sem_wait(&mutex);
 	
+	//print_semaphores();
+	
+	printf(":: Dequeueing element into buffer. ::\n");
+
 	// Copies 1024 bytes from the read node into the provided buffer data.
 	memcpy(data,buffer.read->data, DATA_LENGTH);
 	
 	// Correctly update the buffer's length and read pointer
 	buffer.read = buffer.read->next;
 	buffer.length--;
+	
+	printf("%s\n", data);
+	printf("%d items in the buffer.\n", buffer.length);
 	
 	sem_post(&mutex);
 	sem_post(&empty_count);
@@ -145,6 +161,27 @@ void print_semaphores(void) {
 	return;
 }
 
+#define ASCII_0 48
+#define ASCII_9 57
+char * prep_string(void){
+	
+	static char enqueue_str[DATA_LENGTH];
+	int i;
+	
+	for (i = 0; i < DATA_LENGTH; i++){
+		enqueue_str[i] = enqueue_char;
+	}
+	
+	enqueue_str[DATA_LENGTH] = NULL;
+	enqueue_char++;
+	
+	if (enqueue_char > ASCII_9) {
+		enqueue_char = ASCII_0;
+	}
+	
+	return enqueue_str;
+}
+
 void print_buffer_421(void){
 	int i;
 	node_421_t *temp = buffer.read;
@@ -167,16 +204,13 @@ int main(void)
 	
 	char dequeue[DATA_LENGTH];
 	int i, time;
-	
-	const char *arr[SIZE_OF_BUFFER] = {"01", "02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20"};
-	
-	
+		
 	for (i = 0; i < THREAD_COUNT; i++) {
         if (i % 2 == 0) {
 			// sleep
 			time = rand() % 100;
 			usleep(time);
-            if (pthread_create(&th[i], NULL, &enqueue_buffer_421, arr[rand() % SIZE_OF_BUFFER]) != 0) {
+            if (pthread_create(&th[i], NULL, &enqueue_buffer_421, prep_string()) != 0) {
                 perror("Failed to create thread");
             }
         } else {
@@ -187,7 +221,7 @@ int main(void)
                 perror("Failed to create thread");
             }
         }
-    }
+	}
     for (i = 0; i < THREAD_COUNT; i++) {
         if (pthread_join(th[i], NULL) != 0) {
             perror("Failed to join thread");

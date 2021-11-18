@@ -12,7 +12,7 @@ extern "C" {
 #endif
 
 #define SIZE_OF_BUFFER 20
-#define DATA_LENGTH 2 //MUST CHANGE IT BACK TO 1024!!!!!!!!!!!!!!!!!!
+#define DATA_LENGTH 1024 //MUST CHANGE IT BACK TO 1024!!!!!!!!!!!!!!!!!!
 
 	typedef struct node_421 {
 		    struct node_421 *next;
