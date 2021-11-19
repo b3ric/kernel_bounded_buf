@@ -1,0 +1,2750 @@
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 
+Address is 0x7ffff1d0b2a0  ||| Value is 
+Address is 0x7ffff1d0b2c0  ||| Value is 
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Read points to 0x7ffff1d0b260
+Write points to 0x7ffff1d0b280
+
+1111
+1 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 18
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 
+Address is 0x7ffff1d0b2a0  ||| Value is 
+Address is 0x7ffff1d0b2c0  ||| Value is 
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b280
+
+1111
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 
+Address is 0x7ffff1d0b2c0  ||| Value is 
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b2a0
+
+4444
+1 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b2c0
+
+6666
+2 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 15
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b2c0
+
+4444
+1 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b2e0
+
+8888
+2 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 13
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Read points to 0x7ffff1d0b2c0
+Write points to 0x7ffff1d0b2e0
+
+6666
+1 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Read points to 0x7ffff1d0b2c0
+Write points to 0x7ffff1d0b300
+
+0000
+2 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 13
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b300
+
+8888
+1 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b320
+
+3333
+2 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b340
+
+4444
+3 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b360
+
+6666
+4 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 7
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b360
+
+0000
+3 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b380
+
+1111
+4 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b3a0
+
+4444
+5 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Read points to 0x7ffff1d0b320
+Write points to 0x7ffff1d0b3a0
+
+3333
+4 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Read points to 0x7ffff1d0b320
+Write points to 0x7ffff1d0b3c0
+
+7777
+5 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Read points to 0x7ffff1d0b320
+Write points to 0x7ffff1d0b3e0
+
+9999
+6 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b3e0
+
+4444
+5 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b400
+
+2222
+6 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b420
+
+4444
+7 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Read points to 0x7ffff1d0b360
+Write points to 0x7ffff1d0b420
+
+6666
+6 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Read points to 0x7ffff1d0b360
+Write points to 0x7ffff1d0b440
+
+8888
+7 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Read points to 0x7ffff1d0b360
+Write points to 0x7ffff1d0b460
+
+0000
+8 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b460
+
+1111
+7 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b480
+
+2222
+8 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b4a0
+
+5555
+9 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b4c0
+
+6666
+10 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 1111
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b260
+
+8888
+11 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b280
+
+9999
+12 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 4444
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b280
+
+3333
+11 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 6666
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b2a0
+
+9999
+12 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 8888
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b2c0
+
+9999
+13 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 0000
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b2e0
+
+9999
+14 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 3333
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b300
+
+9999
+15 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b320
+
+9999
+16 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Read points to 0x7ffff1d0b3c0
+Write points to 0x7ffff1d0b320
+
+7777
+15 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 4444
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Read points to 0x7ffff1d0b3e0
+Write points to 0x7ffff1d0b320
+
+9999
+14 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Read points to 0x7ffff1d0b3e0
+Write points to 0x7ffff1d0b340
+
+9999
+15 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Read points to 0x7ffff1d0b400
+Write points to 0x7ffff1d0b340
+
+2222
+14 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 6666
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Read points to 0x7ffff1d0b420
+Write points to 0x7ffff1d0b340
+
+4444
+13 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Read points to 0x7ffff1d0b420
+Write points to 0x7ffff1d0b360
+
+9999
+14 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 1111
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Read points to 0x7ffff1d0b440
+Write points to 0x7ffff1d0b360
+
+8888
+13 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Read points to 0x7ffff1d0b440
+Write points to 0x7ffff1d0b380
+
+9999
+14 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Read points to 0x7ffff1d0b460
+Write points to 0x7ffff1d0b380
+
+0000
+13 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Read points to 0x7ffff1d0b480
+Write points to 0x7ffff1d0b380
+
+2222
+12 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Read points to 0x7ffff1d0b4a0
+Write points to 0x7ffff1d0b380
+
+5555
+11 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Read points to 0x7ffff1d0b4c0
+Write points to 0x7ffff1d0b380
+
+6666
+10 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Read points to 0x7ffff1d0b260
+Write points to 0x7ffff1d0b380
+
+8888
+9 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 3333
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b380
+
+9999
+8 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b3a0
+
+9999
+9 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 7777
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b3a0
+
+9999
+8 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b3c0
+
+9999
+9 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Read points to 0x7ffff1d0b2c0
+Write points to 0x7ffff1d0b3c0
+
+9999
+8 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Read points to 0x7ffff1d0b2c0
+Write points to 0x7ffff1d0b3e0
+
+9999
+9 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 2222
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b3e0
+
+9999
+8 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 4444
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b400
+
+9999
+9 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b420
+
+9999
+10 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 8888
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b420
+
+9999
+9 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 0000
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b440
+
+9999
+10 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b460
+
+9999
+11 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 2222
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Read points to 0x7ffff1d0b320
+Write points to 0x7ffff1d0b460
+
+9999
+10 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Read points to 0x7ffff1d0b320
+Write points to 0x7ffff1d0b480
+
+9999
+11 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 5555
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b480
+
+9999
+10 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 6666
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b4a0
+
+9999
+11 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 8888
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b4c0
+
+9999
+12 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b260
+
+9999
+13 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Read points to 0x7ffff1d0b360
+Write points to 0x7ffff1d0b260
+
+9999
+12 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Read points to 0x7ffff1d0b360
+Write points to 0x7ffff1d0b280
+
+9999
+13 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 0
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b280
+
+9999
+12 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b280
+
+9999
+11 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Read points to 0x7ffff1d0b3c0
+Write points to 0x7ffff1d0b280
+
+9999
+10 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 1
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Read points to 0x7ffff1d0b3e0
+Write points to 0x7ffff1d0b280
+
+9999
+9 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 2
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Read points to 0x7ffff1d0b400
+Write points to 0x7ffff1d0b280
+
+9999
+8 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 3
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Read points to 0x7ffff1d0b420
+Write points to 0x7ffff1d0b280
+
+9999
+7 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Read points to 0x7ffff1d0b420
+Write points to 0x7ffff1d0b2a0
+
+9999
+8 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 4
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Read points to 0x7ffff1d0b440
+Write points to 0x7ffff1d0b2a0
+
+9999
+7 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 5
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Read points to 0x7ffff1d0b460
+Write points to 0x7ffff1d0b2a0
+
+9999
+6 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Read points to 0x7ffff1d0b460
+Write points to 0x7ffff1d0b2c0
+
+9999
+7 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 6
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Read points to 0x7ffff1d0b480
+Write points to 0x7ffff1d0b2c0
+
+9999
+6 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 7
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Read points to 0x7ffff1d0b4a0
+Write points to 0x7ffff1d0b2c0
+
+9999
+5 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 8
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Read points to 0x7ffff1d0b4c0
+Write points to 0x7ffff1d0b2c0
+
+9999
+4 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Read points to 0x7ffff1d0b4c0
+Write points to 0x7ffff1d0b2e0
+
+9999
+5 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Read points to 0x7ffff1d0b4c0
+Write points to 0x7ffff1d0b300
+
+9999
+6 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 9
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Read points to 0x7ffff1d0b260
+Write points to 0x7ffff1d0b300
+
+9999
+5 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 10
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b300
+
+9999
+4 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b320
+
+9999
+5 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Read points to 0x7ffff1d0b280
+Write points to 0x7ffff1d0b340
+
+9999
+6 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 11
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b340
+
+9999
+5 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b360
+
+9999
+6 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Read points to 0x7ffff1d0b2a0
+Write points to 0x7ffff1d0b380
+
+9999
+7 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 1
+sem_t empty_count = 12
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Read points to 0x7ffff1d0b2c0
+Write points to 0x7ffff1d0b380
+
+9999
+6 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 13
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Read points to 0x7ffff1d0b2e0
+Write points to 0x7ffff1d0b380
+
+9999
+5 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 14
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Read points to 0x7ffff1d0b300
+Write points to 0x7ffff1d0b380
+
+9999
+4 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 15
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Read points to 0x7ffff1d0b320
+Write points to 0x7ffff1d0b380
+
+9999
+3 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 16
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b380
+
+9999
+2 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Read points to 0x7ffff1d0b340
+Write points to 0x7ffff1d0b3a0
+
+9999
+3 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 17
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Read points to 0x7ffff1d0b360
+Write points to 0x7ffff1d0b3a0
+
+9999
+2 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 18
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Read points to 0x7ffff1d0b380
+Write points to 0x7ffff1d0b3a0
+
+9999
+1 items in the buffer.
+sem_t mutex = 0
+sem_t fill_count = 0
+sem_t empty_count = 19
+:: Dequeueing element into buffer. ::
+Address is 0x7ffff1d0b3a0  ||| Value is 9999
+Address is 0x7ffff1d0b3c0  ||| Value is 9999
+Address is 0x7ffff1d0b3e0  ||| Value is 9999
+Address is 0x7ffff1d0b400  ||| Value is 9999
+Address is 0x7ffff1d0b420  ||| Value is 9999
+Address is 0x7ffff1d0b440  ||| Value is 9999
+Address is 0x7ffff1d0b460  ||| Value is 9999
+Address is 0x7ffff1d0b480  ||| Value is 9999
+Address is 0x7ffff1d0b4a0  ||| Value is 9999
+Address is 0x7ffff1d0b4c0  ||| Value is 9999
+Address is 0x7ffff1d0b260  ||| Value is 9999
+Address is 0x7ffff1d0b280  ||| Value is 9999
+Address is 0x7ffff1d0b2a0  ||| Value is 9999
+Address is 0x7ffff1d0b2c0  ||| Value is 9999
+Address is 0x7ffff1d0b2e0  ||| Value is 9999
+Address is 0x7ffff1d0b300  ||| Value is 9999
+Address is 0x7ffff1d0b320  ||| Value is 9999
+Address is 0x7ffff1d0b340  ||| Value is 9999
+Address is 0x7ffff1d0b360  ||| Value is 9999
+Address is 0x7ffff1d0b380  ||| Value is 9999
+Read points to 0x7ffff1d0b3a0
+Write points to 0x7ffff1d0b3a0
+
+9999
+0 items in the buffer.

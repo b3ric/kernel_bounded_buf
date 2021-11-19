@@ -7,7 +7,7 @@
 #include <pthread.h>
 #include <unistd.h>
 
-#define THREAD_COUNT 100000
+#define THREAD_COUNT 100
 
 static ring_buffer_421_t buffer;
 static sem_t mutex;
@@ -63,19 +63,22 @@ long enqueue_buffer_421(char * data) {
 		return -1;
 	}
 	
+	int time;
+
+	
 	//print_buffer_421();
 	
 	sem_wait(&empty_count);
 	sem_wait(&mutex);
 	//print_semaphores();
-	
+	time = rand() % 800; //back to 100!
 	printf(":: Enqueueing element into buffer. ::\n");
-	
+	usleep(time);
 	memcpy(buffer.write->data, data, DATA_LENGTH);
 	// Advance the pointer.
 	buffer.write = buffer.write->next;
 	buffer.length++;
-	
+	print_buffer_421();
 	printf("%s\n", data);
 	printf("%d items in the buffer.\n", buffer.length);
 	
@@ -93,17 +96,15 @@ long dequeue_buffer_421(char * data) {
 		return -1;
 	}
 	
-	if (buffer.length == 0){
-		return -1; // FOR NOW... LATER BLOCK USING SEMAPHORE
-	}
+	int time;
 		
 	//print_buffer_421();
 	
 	sem_wait(&fill_count);
 	sem_wait(&mutex);
-	
-	//print_semaphores();
-	
+	time = rand() % 800; //back to 100!
+	print_semaphores();
+	usleep(time);
 	printf(":: Dequeueing element into buffer. ::\n");
 
 	// Copies 1024 bytes from the read node into the provided buffer data.
@@ -112,6 +113,7 @@ long dequeue_buffer_421(char * data) {
 	// Correctly update the buffer's length and read pointer
 	buffer.read = buffer.read->next;
 	buffer.length--;
+	print_buffer_421();
 	
 	printf("%s\n", data);
 	printf("%d items in the buffer.\n", buffer.length);
@@ -176,6 +178,7 @@ char * prep_string(void){
 	enqueue_char++;
 	
 	if (enqueue_char > ASCII_9) {
+		//printf("in if stmt\n");
 		enqueue_char = ASCII_0;
 	}
 	
@@ -191,8 +194,8 @@ void print_buffer_421(void){
 		temp = temp->next;
 	}
 	
-	//printf("Read points to %p\n", buffer.read);
-	//printf("Write points to %p\n", buffer.write);
+	printf("Read points to %p\n", buffer.read);
+	printf("Write points to %p\n\n", buffer.write);
 }
 
 int main(void)
@@ -201,27 +204,21 @@ int main(void)
 	init_buffer_421();
 	srand(time(NULL));
 	pthread_t th[THREAD_COUNT];
-	
 	char dequeue[DATA_LENGTH];
-	int i, time;
+	
+	int i;
 		
 	for (i = 0; i < THREAD_COUNT; i++) {
-        if (i % 2 == 0) {
-			// sleep
-			time = rand() % 100;
-			usleep(time);
-            if (pthread_create(&th[i], NULL, &enqueue_buffer_421, prep_string()) != 0) {
-                perror("Failed to create thread");
-            }
-        } else {
-			//sleep here
-			time = rand() % 100;
-			usleep(time);
-            if (pthread_create(&th[i], NULL, &dequeue_buffer_421, &dequeue) != 0) {
-                perror("Failed to create thread");
-            }
-        }
+		char * str = prep_string();
+		if (pthread_create(&th[i], NULL, &enqueue_buffer_421, str) != 0) {
+			perror("Failed to create thread");
+		}
+	 
+		if (pthread_create(&th[++i], NULL, &dequeue_buffer_421, &dequeue) != 0) {
+			perror("Failed to create thread");
+		}
 	}
+	
     for (i = 0; i < THREAD_COUNT; i++) {
         if (pthread_join(th[i], NULL) != 0) {
             perror("Failed to join thread");

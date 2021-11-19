@@ -1,0 +1,2600 @@
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 
+Address is 0x7fffda3d22a0  ||| Value is 
+Address is 0x7fffda3d22c0  ||| Value is 
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Read points to 0x7fffda3d2260
+Write points to 0x7fffda3d2280
+
+0000
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2280  ||| Value is 
+Address is 0x7fffda3d22a0  ||| Value is 
+Address is 0x7fffda3d22c0  ||| Value is 
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Read points to 0x7fffda3d2280
+Write points to 0x7fffda3d2280
+
+0000
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 
+Address is 0x7fffda3d22c0  ||| Value is 
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Read points to 0x7fffda3d2280
+Write points to 0x7fffda3d22a0
+
+1111
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22a0  ||| Value is 
+Address is 0x7fffda3d22c0  ||| Value is 
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Read points to 0x7fffda3d22a0
+Write points to 0x7fffda3d22a0
+
+1111
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Read points to 0x7fffda3d22a0
+Write points to 0x7fffda3d22c0
+
+2222
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22c0  ||| Value is 
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Read points to 0x7fffda3d22c0
+Write points to 0x7fffda3d22c0
+
+2222
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Read points to 0x7fffda3d22c0
+Write points to 0x7fffda3d22e0
+
+3333
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22e0  ||| Value is 
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Read points to 0x7fffda3d22e0
+Write points to 0x7fffda3d22e0
+
+3333
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Read points to 0x7fffda3d22e0
+Write points to 0x7fffda3d2300
+
+4444
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2300  ||| Value is 
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Read points to 0x7fffda3d2300
+Write points to 0x7fffda3d2300
+
+4444
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Read points to 0x7fffda3d2300
+Write points to 0x7fffda3d2320
+
+5555
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2320  ||| Value is 
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Read points to 0x7fffda3d2320
+Write points to 0x7fffda3d2320
+
+5555
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Read points to 0x7fffda3d2320
+Write points to 0x7fffda3d2340
+
+6666
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2340  ||| Value is 
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Read points to 0x7fffda3d2340
+Write points to 0x7fffda3d2340
+
+6666
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Read points to 0x7fffda3d2340
+Write points to 0x7fffda3d2360
+
+7777
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2360  ||| Value is 
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Read points to 0x7fffda3d2360
+Write points to 0x7fffda3d2360
+
+7777
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Read points to 0x7fffda3d2360
+Write points to 0x7fffda3d2380
+
+8888
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2380  ||| Value is 
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Read points to 0x7fffda3d2380
+Write points to 0x7fffda3d2380
+
+8888
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Read points to 0x7fffda3d2380
+Write points to 0x7fffda3d23a0
+
+9999
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23a0  ||| Value is 
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Read points to 0x7fffda3d23a0
+Write points to 0x7fffda3d23a0
+
+9999
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Read points to 0x7fffda3d23a0
+Write points to 0x7fffda3d23c0
+
+0000
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23c0  ||| Value is 
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Read points to 0x7fffda3d23c0
+Write points to 0x7fffda3d23c0
+
+0000
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Read points to 0x7fffda3d23c0
+Write points to 0x7fffda3d23e0
+
+1111
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23e0  ||| Value is 
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Read points to 0x7fffda3d23e0
+Write points to 0x7fffda3d23e0
+
+1111
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Read points to 0x7fffda3d23e0
+Write points to 0x7fffda3d2400
+
+2222
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2400  ||| Value is 
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Read points to 0x7fffda3d2400
+Write points to 0x7fffda3d2400
+
+2222
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Read points to 0x7fffda3d2400
+Write points to 0x7fffda3d2420
+
+3333
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2420  ||| Value is 
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Read points to 0x7fffda3d2420
+Write points to 0x7fffda3d2420
+
+3333
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Read points to 0x7fffda3d2420
+Write points to 0x7fffda3d2440
+
+4444
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2440  ||| Value is 
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Read points to 0x7fffda3d2440
+Write points to 0x7fffda3d2440
+
+4444
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Read points to 0x7fffda3d2440
+Write points to 0x7fffda3d2460
+
+5555
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2460  ||| Value is 
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Read points to 0x7fffda3d2460
+Write points to 0x7fffda3d2460
+
+5555
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Read points to 0x7fffda3d2460
+Write points to 0x7fffda3d2480
+
+6666
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2480  ||| Value is 
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Read points to 0x7fffda3d2480
+Write points to 0x7fffda3d2480
+
+6666
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Read points to 0x7fffda3d2480
+Write points to 0x7fffda3d24a0
+
+7777
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d24a0  ||| Value is 
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Read points to 0x7fffda3d24a0
+Write points to 0x7fffda3d24a0
+
+7777
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Read points to 0x7fffda3d24a0
+Write points to 0x7fffda3d24c0
+
+8888
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d24c0  ||| Value is 
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Read points to 0x7fffda3d24c0
+Write points to 0x7fffda3d24c0
+
+8888
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Read points to 0x7fffda3d24c0
+Write points to 0x7fffda3d2260
+
+9999
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Read points to 0x7fffda3d2260
+Write points to 0x7fffda3d2260
+
+9999
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Read points to 0x7fffda3d2260
+Write points to 0x7fffda3d2280
+
+0000
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Read points to 0x7fffda3d2280
+Write points to 0x7fffda3d2280
+
+0000
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Read points to 0x7fffda3d2280
+Write points to 0x7fffda3d22a0
+
+1111
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Read points to 0x7fffda3d22a0
+Write points to 0x7fffda3d22a0
+
+1111
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Read points to 0x7fffda3d22a0
+Write points to 0x7fffda3d22c0
+
+2222
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Read points to 0x7fffda3d22c0
+Write points to 0x7fffda3d22c0
+
+2222
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Read points to 0x7fffda3d22c0
+Write points to 0x7fffda3d22e0
+
+3333
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Read points to 0x7fffda3d22e0
+Write points to 0x7fffda3d22e0
+
+3333
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Read points to 0x7fffda3d22e0
+Write points to 0x7fffda3d2300
+
+4444
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Read points to 0x7fffda3d2300
+Write points to 0x7fffda3d2300
+
+4444
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Read points to 0x7fffda3d2300
+Write points to 0x7fffda3d2320
+
+5555
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Read points to 0x7fffda3d2320
+Write points to 0x7fffda3d2320
+
+5555
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Read points to 0x7fffda3d2320
+Write points to 0x7fffda3d2340
+
+6666
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Read points to 0x7fffda3d2340
+Write points to 0x7fffda3d2340
+
+6666
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Read points to 0x7fffda3d2340
+Write points to 0x7fffda3d2360
+
+7777
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Read points to 0x7fffda3d2360
+Write points to 0x7fffda3d2360
+
+7777
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Read points to 0x7fffda3d2360
+Write points to 0x7fffda3d2380
+
+8888
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Read points to 0x7fffda3d2380
+Write points to 0x7fffda3d2380
+
+8888
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Read points to 0x7fffda3d2380
+Write points to 0x7fffda3d23a0
+
+9999
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Read points to 0x7fffda3d23a0
+Write points to 0x7fffda3d23a0
+
+9999
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Read points to 0x7fffda3d23a0
+Write points to 0x7fffda3d23c0
+
+0000
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Read points to 0x7fffda3d23c0
+Write points to 0x7fffda3d23c0
+
+0000
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Read points to 0x7fffda3d23c0
+Write points to 0x7fffda3d23e0
+
+1111
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Read points to 0x7fffda3d23e0
+Write points to 0x7fffda3d23e0
+
+1111
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Read points to 0x7fffda3d23e0
+Write points to 0x7fffda3d2400
+
+2222
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Read points to 0x7fffda3d2400
+Write points to 0x7fffda3d2400
+
+2222
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Read points to 0x7fffda3d2400
+Write points to 0x7fffda3d2420
+
+3333
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Read points to 0x7fffda3d2420
+Write points to 0x7fffda3d2420
+
+3333
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Read points to 0x7fffda3d2420
+Write points to 0x7fffda3d2440
+
+4444
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Read points to 0x7fffda3d2440
+Write points to 0x7fffda3d2440
+
+4444
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Read points to 0x7fffda3d2440
+Write points to 0x7fffda3d2460
+
+5555
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Read points to 0x7fffda3d2460
+Write points to 0x7fffda3d2460
+
+5555
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Read points to 0x7fffda3d2460
+Write points to 0x7fffda3d2480
+
+6666
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Read points to 0x7fffda3d2480
+Write points to 0x7fffda3d2480
+
+6666
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Read points to 0x7fffda3d2480
+Write points to 0x7fffda3d24a0
+
+7777
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Read points to 0x7fffda3d24a0
+Write points to 0x7fffda3d24a0
+
+7777
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Read points to 0x7fffda3d24a0
+Write points to 0x7fffda3d24c0
+
+8888
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Read points to 0x7fffda3d24c0
+Write points to 0x7fffda3d24c0
+
+8888
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Read points to 0x7fffda3d24c0
+Write points to 0x7fffda3d2260
+
+9999
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Read points to 0x7fffda3d2260
+Write points to 0x7fffda3d2260
+
+9999
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Read points to 0x7fffda3d2260
+Write points to 0x7fffda3d2280
+
+0000
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Read points to 0x7fffda3d2280
+Write points to 0x7fffda3d2280
+
+0000
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Read points to 0x7fffda3d2280
+Write points to 0x7fffda3d22a0
+
+1111
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Read points to 0x7fffda3d22a0
+Write points to 0x7fffda3d22a0
+
+1111
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Read points to 0x7fffda3d22a0
+Write points to 0x7fffda3d22c0
+
+2222
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Read points to 0x7fffda3d22c0
+Write points to 0x7fffda3d22c0
+
+2222
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Read points to 0x7fffda3d22c0
+Write points to 0x7fffda3d22e0
+
+3333
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Read points to 0x7fffda3d22e0
+Write points to 0x7fffda3d22e0
+
+3333
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Read points to 0x7fffda3d22e0
+Write points to 0x7fffda3d2300
+
+4444
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Read points to 0x7fffda3d2300
+Write points to 0x7fffda3d2300
+
+4444
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Read points to 0x7fffda3d2300
+Write points to 0x7fffda3d2320
+
+5555
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Read points to 0x7fffda3d2320
+Write points to 0x7fffda3d2320
+
+5555
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Read points to 0x7fffda3d2320
+Write points to 0x7fffda3d2340
+
+6666
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Read points to 0x7fffda3d2340
+Write points to 0x7fffda3d2340
+
+6666
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Read points to 0x7fffda3d2340
+Write points to 0x7fffda3d2360
+
+7777
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Read points to 0x7fffda3d2360
+Write points to 0x7fffda3d2360
+
+7777
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Read points to 0x7fffda3d2360
+Write points to 0x7fffda3d2380
+
+8888
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Read points to 0x7fffda3d2380
+Write points to 0x7fffda3d2380
+
+8888
+0 items in the buffer.
+:: Enqueueing element into buffer. ::
+Address is 0x7fffda3d2380  ||| Value is 9999
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Read points to 0x7fffda3d2380
+Write points to 0x7fffda3d23a0
+
+9999
+1 items in the buffer.
+:: Dequeueing element into buffer. ::
+Address is 0x7fffda3d23a0  ||| Value is 0000
+Address is 0x7fffda3d23c0  ||| Value is 1111
+Address is 0x7fffda3d23e0  ||| Value is 2222
+Address is 0x7fffda3d2400  ||| Value is 3333
+Address is 0x7fffda3d2420  ||| Value is 4444
+Address is 0x7fffda3d2440  ||| Value is 5555
+Address is 0x7fffda3d2460  ||| Value is 6666
+Address is 0x7fffda3d2480  ||| Value is 7777
+Address is 0x7fffda3d24a0  ||| Value is 8888
+Address is 0x7fffda3d24c0  ||| Value is 9999
+Address is 0x7fffda3d2260  ||| Value is 0000
+Address is 0x7fffda3d2280  ||| Value is 1111
+Address is 0x7fffda3d22a0  ||| Value is 2222
+Address is 0x7fffda3d22c0  ||| Value is 3333
+Address is 0x7fffda3d22e0  ||| Value is 4444
+Address is 0x7fffda3d2300  ||| Value is 5555
+Address is 0x7fffda3d2320  ||| Value is 6666
+Address is 0x7fffda3d2340  ||| Value is 7777
+Address is 0x7fffda3d2360  ||| Value is 8888
+Address is 0x7fffda3d2380  ||| Value is 9999
+Read points to 0x7fffda3d23a0
+Write points to 0x7fffda3d23a0
+
+9999
+0 items in the buffer.
