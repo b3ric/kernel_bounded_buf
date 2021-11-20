@@ -7,7 +7,9 @@
 #include <pthread.h>
 #include <unistd.h>
 
-#define THREAD_COUNT 100
+#define THREAD_COUNT 2
+#define LOOP_COUNT 100000
+#define RAND_SEED 100
 
 static ring_buffer_421_t buffer;
 static sem_t mutex;
@@ -16,6 +18,8 @@ static sem_t empty_count;
 static int enqueue_char = 48; // ASCII for '0'
 
 void print_buffer_421(void);
+void * producer(void *args);
+void * consumer(void *args);
 char* prep_string(void);
 
 long init_buffer_421(void) {
@@ -25,12 +29,6 @@ long init_buffer_421(void) {
 		printf("init_buffer_421(): Buffer already exists. Aborting.\n");
 		return -1;
 	}
-	
-	// Initializing semaphores.
-	
-	sem_init(&mutex, 0, 1);
-    sem_init(&empty_count, 0, SIZE_OF_BUFFER);
-    sem_init(&fill_count, 0, 0);
 
 	// Create the root node.
 	node_421_t *node;
@@ -51,76 +49,64 @@ long init_buffer_421(void) {
 	buffer.length = 0;
 
 	// Initialize your semaphores here.
-	// TODO
+	sem_init(&mutex, 0, 1);
+    sem_init(&empty_count, 0, SIZE_OF_BUFFER);
+    sem_init(&fill_count, 0, 0);
 
 	return 0;
 }
 
-long enqueue_buffer_421(char * data) {
-	// NOTE: You have to modify this function to use semaphores.
+long enqueue_buffer_421(char * data) {	
+	
 	if (!buffer.write) {
 		printf("write_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 	
-	int time;
 
-	
-	//print_buffer_421();
+	usleep(rand() % RAND_SEED);
 	
 	sem_wait(&empty_count);
 	sem_wait(&mutex);
-	//print_semaphores();
-	time = rand() % 800; //back to 100!
+	
 	printf(":: Enqueueing element into buffer. ::\n");
-	usleep(time);
+	printf("%s\n", data);
+	
 	memcpy(buffer.write->data, data, DATA_LENGTH);
-	// Advance the pointer.
 	buffer.write = buffer.write->next;
 	buffer.length++;
-	print_buffer_421();
-	printf("%s\n", data);
-	printf("%d items in the buffer.\n", buffer.length);
+	
+	printf("Size of buffer is %d\n\n", buffer.length);
 	
 	sem_post(&mutex);
-	sem_post(&fill_count);
-
+	sem_post(&fill_count);	
+	
 	return 0;
 }
 
 long dequeue_buffer_421(char * data) {
 	
-	//
 	if (!buffer.read) {
 		printf("delete_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
-	
-	int time;
-		
-	//print_buffer_421();
+			
+	usleep(rand() % RAND_SEED);
 	
 	sem_wait(&fill_count);
 	sem_wait(&mutex);
-	time = rand() % 800; //back to 100!
-	print_semaphores();
-	usleep(time);
-	printf(":: Dequeueing element into buffer. ::\n");
-
-	// Copies 1024 bytes from the read node into the provided buffer data.
-	memcpy(data,buffer.read->data, DATA_LENGTH);
 	
-	// Correctly update the buffer's length and read pointer
+	printf(":: Dequeueing element into buffer. ::\n");
+	
+	memcpy(data,buffer.read->data, DATA_LENGTH);
+	printf("%s\n", data);
 	buffer.read = buffer.read->next;
 	buffer.length--;
-	print_buffer_421();
 	
-	printf("%s\n", data);
-	printf("%d items in the buffer.\n", buffer.length);
+	printf("Size of buffer is %d\n\n", buffer.length);
 	
 	sem_post(&mutex);
 	sem_post(&empty_count);
-	
 	
 	return 0;
 }
@@ -174,11 +160,10 @@ char * prep_string(void){
 		enqueue_str[i] = enqueue_char;
 	}
 	
-	enqueue_str[DATA_LENGTH] = NULL;
+	enqueue_str[DATA_LENGTH] = 0;
 	enqueue_char++;
 	
 	if (enqueue_char > ASCII_9) {
-		//printf("in if stmt\n");
 		enqueue_char = ASCII_0;
 	}
 	
@@ -198,32 +183,42 @@ void print_buffer_421(void){
 	printf("Write points to %p\n\n", buffer.write);
 }
 
-int main(void)
-{
-	
-	init_buffer_421();
-	srand(time(NULL));
-	pthread_t th[THREAD_COUNT];
-	char dequeue[DATA_LENGTH];
+void * producer(void *args){
 	
 	int i;
-		
-	for (i = 0; i < THREAD_COUNT; i++) {
-		char * str = prep_string();
-		if (pthread_create(&th[i], NULL, &enqueue_buffer_421, str) != 0) {
-			perror("Failed to create thread");
-		}
-	 
-		if (pthread_create(&th[++i], NULL, &dequeue_buffer_421, &dequeue) != 0) {
-			perror("Failed to create thread");
-		}
+	
+	for (i = 0; i < LOOP_COUNT; i++){
+		usleep(rand() % RAND_SEED);
+		enqueue_buffer_421(prep_string());
 	}
 	
-    for (i = 0; i < THREAD_COUNT; i++) {
-        if (pthread_join(th[i], NULL) != 0) {
-            perror("Failed to join thread");
-        }
-    }
+	return NULL;
+}
+
+void * consumer(void *args){
+	
+	int i;
+	
+	for (i = 0; i < LOOP_COUNT; i++){
+		usleep(rand() % RAND_SEED);
+		char dequeue[DATA_LENGTH];
+		dequeue_buffer_421(dequeue);
+	}
+	
+	return NULL;
+}
+
+int main(void)
+{
+	init_buffer_421();
+
+	pthread_t p,c;
+	
+	pthread_create(&p, NULL, &producer, NULL);
+	pthread_create(&c, NULL, &consumer, NULL);
+	pthread_join(p, NULL);
+	pthread_join(c, NULL);
+	
 	sem_destroy(&empty_count);
 	sem_destroy(&fill_count);
 	sem_destroy(&mutex);
