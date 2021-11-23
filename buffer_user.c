@@ -1,26 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "buffer.h"
 #include <string.h>
 #include <semaphore.h>
 #include <time.h>
 #include <pthread.h>
 #include <unistd.h>
 
-#define THREAD_COUNT 2
-#define LOOP_COUNT 100000
-#define RAND_SEED 100
+#include "buffer.h"
+#include "utils.h"
 
 static ring_buffer_421_t buffer;
 static sem_t mutex;
 static sem_t fill_count;
 static sem_t empty_count;
-static int enqueue_char = 48; // ASCII for '0'
-
-void print_buffer_421(void);
-void * producer(void *args);
-void * consumer(void *args);
-char* prep_string(void);
 
 long init_buffer_421(void) {
 	
@@ -62,21 +54,18 @@ long enqueue_buffer_421(char * data) {
 		printf("write_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
-	
-
-	usleep(rand() % RAND_SEED);
-	
+		
 	sem_wait(&empty_count);
 	sem_wait(&mutex);
 	
 	printf(":: Enqueueing element into buffer. ::\n");
-	printf("%s\n", data);
+	printf("%.*s...\n", PRINT_N, data);
 	
 	memcpy(buffer.write->data, data, DATA_LENGTH);
 	buffer.write = buffer.write->next;
 	buffer.length++;
 	
-	printf("Size of buffer is %d\n\n", buffer.length);
+	printf("Size of buffer is %d\n", buffer.length);
 	
 	sem_post(&mutex);
 	sem_post(&fill_count);	
@@ -90,20 +79,20 @@ long dequeue_buffer_421(char * data) {
 		printf("delete_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
-			
-	usleep(rand() % RAND_SEED);
-	
+				
 	sem_wait(&fill_count);
 	sem_wait(&mutex);
 	
 	printf(":: Dequeueing element into buffer. ::\n");
+	//printf("%s \n", buffer.read->data);
 	
 	memcpy(data,buffer.read->data, DATA_LENGTH);
-	printf("%s\n", data);
+	
+	printf("%.*s...\n", PRINT_N, data);
+	
 	buffer.read = buffer.read->next;
 	buffer.length--;
-	
-	printf("Size of buffer is %d\n\n", buffer.length);
+	printf("Size of buffer is %d\n", buffer.length);
 	
 	sem_post(&mutex);
 	sem_post(&empty_count);
@@ -132,6 +121,7 @@ long delete_buffer_421(void) {
 	buffer.read = NULL;
 	buffer.write = NULL;
 	buffer.length = 0;
+	
 	return 0;
 }
 
@@ -147,65 +137,6 @@ void print_semaphores(void) {
 	sem_getvalue(&empty_count, &value);
 	printf("sem_t empty_count = %d\n", value);
 	return;
-}
-
-#define ASCII_0 48
-#define ASCII_9 57
-char * prep_string(void){
-	
-	static char enqueue_str[DATA_LENGTH];
-	int i;
-	
-	for (i = 0; i < DATA_LENGTH; i++){
-		enqueue_str[i] = enqueue_char;
-	}
-	
-	enqueue_str[DATA_LENGTH] = 0;
-	enqueue_char++;
-	
-	if (enqueue_char > ASCII_9) {
-		enqueue_char = ASCII_0;
-	}
-	
-	return enqueue_str;
-}
-
-void print_buffer_421(void){
-	int i;
-	node_421_t *temp = buffer.read;
-	
-	for (i = 0; i < SIZE_OF_BUFFER; i++){
-		printf("Address is %p  ||| Value is %s\n", temp, temp->data);
-		temp = temp->next;
-	}
-	
-	printf("Read points to %p\n", buffer.read);
-	printf("Write points to %p\n\n", buffer.write);
-}
-
-void * producer(void *args){
-	
-	int i;
-	
-	for (i = 0; i < LOOP_COUNT; i++){
-		usleep(rand() % RAND_SEED);
-		enqueue_buffer_421(prep_string());
-	}
-	
-	return NULL;
-}
-
-void * consumer(void *args){
-	
-	int i;
-	
-	for (i = 0; i < LOOP_COUNT; i++){
-		usleep(rand() % RAND_SEED);
-		char dequeue[DATA_LENGTH];
-		dequeue_buffer_421(dequeue);
-	}
-	
-	return NULL;
 }
 
 int main(void)
