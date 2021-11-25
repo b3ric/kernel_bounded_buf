@@ -60,7 +60,7 @@ long enqueue_buffer_421(char * data) {
 	
 	printf(":: Enqueueing element into buffer. ::\n");
 	printf("%.*s...\n", PRINT_N, data);
-	
+		
 	memcpy(buffer.write->data, data, DATA_LENGTH);
 	buffer.write = buffer.write->next;
 	buffer.length++;
@@ -84,10 +84,7 @@ long dequeue_buffer_421(char * data) {
 	sem_wait(&mutex);
 	
 	printf(":: Dequeueing element into buffer. ::\n");
-	//printf("%s \n", buffer.read->data);
-	
-	memcpy(data,buffer.read->data, DATA_LENGTH);
-	
+	memcpy(data , buffer.read->data , DATA_LENGTH);
 	printf("%.*s...\n", PRINT_N, data);
 	
 	buffer.read = buffer.read->next;

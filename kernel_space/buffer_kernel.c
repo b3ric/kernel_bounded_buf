@@ -5,9 +5,9 @@
 #include <linux/semaphore.h>
 
 #include "buffer.h"
-#include "utils.h"
 
 static ring_buffer_421_t buffer;
+const int PRINT_N = 10;
 
 struct semaphore mutex;
 struct semaphore fill_count;
