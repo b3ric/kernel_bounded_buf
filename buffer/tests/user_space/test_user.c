@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
+#include <pthread.h>
 
 #include "utils.h"
 #include "buffer.h"
@@ -32,8 +33,7 @@ void * producer(void *args){
 		enq_char++; /* Increment char */
 		
 		enqueue_buffer_421(data);
-		print_semaphores();
-		printf("============================\n");
+		printf("============================\n\n");
 	}
 	return NULL;
 }
@@ -57,8 +57,24 @@ void * consumer(void *args){
 		data[DATA_LENGTH] = '\0';
 		
 		dequeue_buffer_421(data);
-		print_semaphores();
-		printf("============================\n");
+		printf("============================\n\n");
 	}
 	return NULL;
+}
+
+int main(void)
+{
+	init_buffer_421();
+
+	pthread_t p,c;
+	
+	pthread_create(&p, NULL, &producer, NULL);
+	pthread_create(&c, NULL, &consumer, NULL);
+	
+	pthread_join(p, NULL);
+	pthread_join(c, NULL);
+	
+	delete_buffer_421();
+	
+	return 0;
 }

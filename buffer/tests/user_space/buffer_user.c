@@ -3,7 +3,6 @@
 #include <string.h>
 #include <semaphore.h>
 #include <time.h>
-#include <pthread.h>
 #include <unistd.h>
 
 #include "buffer.h"
@@ -70,6 +69,7 @@ long enqueue_buffer_421(char * data) {
 	buffer.write = buffer.write->next;
 	buffer.length++;
 	
+	print_semaphores();
 	printf("Size of buffer is %d\n", buffer.length);
 	
 	// Releasing locks
@@ -100,6 +100,8 @@ long dequeue_buffer_421(char * data) {
 	// Adjust pointer and length
 	buffer.read = buffer.read->next;
 	buffer.length--;
+	
+	print_semaphores();
 	printf("Size of buffer is %d\n", buffer.length);
 	
 	// Releasing locks
@@ -134,13 +136,15 @@ long delete_buffer_421(void) {
 	buffer.write = NULL;
 	buffer.length = 0;
 	
+	// Destroy semaphores
+	sem_destroy(&empty_count);
+	sem_destroy(&fill_count);
+	sem_destroy(&mutex);
+	
 	return 0;
 }
 
 void print_semaphores(void) {
-	// You can call this method to check the status of the semaphores.
-	// Don't forget to initialize them first!
-	// YOU DO NOT NEED TO IMPLEMENT THIS FOR KERNEL SPACE.
 	int value;
 	sem_getvalue(&mutex, &value);
 	printf("sem_t mutex = %d\n", value);
@@ -149,24 +153,4 @@ void print_semaphores(void) {
 	sem_getvalue(&empty_count, &value);
 	printf("sem_t empty_count = %d\n", value);
 	return;
-}
-
-int main(void)
-{
-	init_buffer_421();
-
-	pthread_t p,c;
-	
-	pthread_create(&p, NULL, &producer, NULL);
-	pthread_create(&c, NULL, &consumer, NULL);
-	pthread_join(p, NULL);
-	pthread_join(c, NULL);
-	
-	sem_destroy(&empty_count);
-	sem_destroy(&fill_count);
-	sem_destroy(&mutex);
-	
-	delete_buffer_421();
-	
-	return 0;
 }

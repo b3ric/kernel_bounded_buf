@@ -44,31 +44,40 @@ SYSCALL_DEFINE0(init_buffer_421){
 
 	// Initialize your semaphores here.
 	sema_init(&mutex, 1);
-    	sema_init(&empty_count, SIZE_OF_BUFFER);
-    	sema_init(&fill_count, 0);
+    sema_init(&empty_count, SIZE_OF_BUFFER);
+    sema_init(&fill_count, 0);
 
 	return 0;
 }
 
-SYSCALL_DEFINE1(enqueue_buffer_421, char * ,data){	
-	
+SYSCALL_DEFINE1(enqueue_buffer_421, char * ,data){
+
+	// Safety check
 	if (!buffer.write) {
 		printk("write_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
-		
+	
+	// Acquire locks
 	down(&empty_count);
 	down(&mutex);
 	
 	printk(":: Enqueueing element into buffer. ::\n");
 	printk("%.*s...\n", PRINT_N, data);
 	
-	copy_from_user(buffer.write->data, data, DATA_LENGTH);
+	// Write to buffer
+	if(copy_from_user(buffer.write->data, data, DATA_LENGTH)){
+		printk("Something went wrong with <copy_from_user> ...\n");
+		return -EFAULT;
+	}
+	
+	// Adjust pointer and length
 	buffer.write = buffer.write->next;
 	buffer.length++;
 	
 	printk("Size of buffer is %d\n", buffer.length);
 	
+	// Release locks
 	up(&mutex);
 	up(&fill_count);	
 	
@@ -77,24 +86,32 @@ SYSCALL_DEFINE1(enqueue_buffer_421, char * ,data){
 
 SYSCALL_DEFINE1(dequeue_buffer_421,char *,data){
 	
+	// Safety check
 	if (!buffer.read) {
 		printk("delete_buffer_421(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 				
+	// Acquire locks
 	down(&fill_count);
 	down(&mutex);
 	
 	printk(":: Dequeueing element into buffer. ::\n");
 	
-	copy_to_user(data,buffer.read->data, DATA_LENGTH);
+	// Copy from buffer to user 
+	if(copy_to_user(data,buffer.read->data, DATA_LENGTH)){
+		printk("Somethig went wrong with <copy_to_user> ...\n");
+		return -EFAULT;
+	}
 	
 	printk("%.*s...\n", PRINT_N, data);
 	
+	// Adjust pointer and length
 	buffer.read = buffer.read->next;
 	buffer.length--;
 	printk("Size of buffer is %d\n", buffer.length);
 	
+	// Release locks
 	up(&mutex);
 	up(&empty_count);
 	
