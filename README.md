@@ -1,20 +1,15 @@
-# Project 3: UMBCTube and the Bounded Buffer
-### Group members:
-- ERIC BAPTISTA - ebaptis1@umbc.edu
-- JASON NACHMAN - jnachma1@umbc.edu
+# Linux Kernel Multithreaded Bounded Buffer
 
-Project 3 aims to solve the producer-consumer problem using a circular buffer and semaphores. The following will describe the approach taken in order to provide a circular buffer available to concurrent consumer and producer threads in both kernel (system calls) and user-space(functions).
+Aims to solve the producer-consumer problem using a circular buffer and semaphores. The following will describe the approach taken in order to provide a circular buffer available to concurrent consumer and producer threads in both kernel (system calls) and user-space(functions).
 
 ### Make and run:
 #### User space
 ```c
-cd proj3/buffer/tests/user_space/
 make test
 ./test
 ```
 #### Kernel space
 ```c
-cd proj3/buffer/tests/kernel_space/
 make test
 ./test
 ```
@@ -154,5 +149,3 @@ We then define the ```producer``` and ```consumer``` routines:
 	    pthread_join(c, NULL);
         ```
      - Delete the buffer
-
-Please note: When testing the kernel-space implementations, we are calling the actual system calls instead of functions.
