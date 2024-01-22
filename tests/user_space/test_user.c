@@ -32,7 +32,7 @@ void * producer(void *args){
 		
 		enq_char++; /* Increment char */
 		
-		enqueue_buffer_421(data);
+		enqueue_buffer(data);
 		printf("============================\n\n");
 	}
 	return NULL;
@@ -56,7 +56,7 @@ void * consumer(void *args){
 		// Null terminator
 		data[DATA_LENGTH] = '\0';
 		
-		dequeue_buffer_421(data);
+		dequeue_buffer(data);
 		printf("============================\n\n");
 	}
 	return NULL;
@@ -64,7 +64,7 @@ void * consumer(void *args){
 
 int main(void)
 {
-	init_buffer_421();
+	init_buffer();
 
 	pthread_t p,c;
 	
@@ -74,7 +74,7 @@ int main(void)
 	pthread_join(p, NULL);
 	pthread_join(c, NULL);
 	
-	delete_buffer_421();
+	delete_buffer();
 	
 	return 0;
 }

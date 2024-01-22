@@ -8,29 +8,29 @@
 #include "buffer.h"
 #include "utils.h"
 
-static ring_buffer_421_t buffer;
+static ring_buffer_t buffer;
 static sem_t mutex;
 static sem_t fill_count;
 static sem_t empty_count;
 
-long init_buffer_421(void) {
+long init_buffer(void) {
 	
 	// Ensure we're not initializing a buffer that already exists.
 	if (buffer.read || buffer.write) {
-		printf("init_buffer_421(): Buffer already exists. Aborting.\n");
+		printf("init_buffer(): Buffer already exists. Aborting.\n");
 		return -1;
 	}
 
 	// Create the root node.
-	node_421_t *node;
-	node = (node_421_t *) malloc(sizeof(node_421_t));
+	node_t *node;
+	node = (node_t *) malloc(sizeof(node_t));
 	// Create the rest of the nodes, linking them all together.
-	node_421_t *current;
+	node_t *current;
 	int i;
 	current = node;
 	// Note that we've already created one node, so i = 1.
 	for (i = 1; i < SIZE_OF_BUFFER; i++) {
-		current->next = (node_421_t *) malloc(sizeof(node_421_t));
+		current->next = (node_t *) malloc(sizeof(node_t));
 		current = current->next;
 	}
 	// Complete the chain.
@@ -47,11 +47,11 @@ long init_buffer_421(void) {
 	return 0;
 }
 
-long enqueue_buffer_421(char * data) {	
+long enqueue_buffer(char * data) {	
 	
 	// Safety check
 	if (!buffer.write) {
-		printf("write_buffer_421(): The buffer does not exist. Aborting.\n");
+		printf("write_buffer(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 	
@@ -79,11 +79,11 @@ long enqueue_buffer_421(char * data) {
 	return 0;
 }
 
-long dequeue_buffer_421(char * data) {
+long dequeue_buffer(char * data) {
 	
 	// Safety check
 	if (!buffer.read) {
-		printf("delete_buffer_421(): The buffer does not exist. Aborting.\n");
+		printf("delete_buffer(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 				
@@ -111,17 +111,17 @@ long dequeue_buffer_421(char * data) {
 	return 0;
 }
 
-long delete_buffer_421(void) {
+long delete_buffer(void) {
 	
 	// Tip: Don't call this while any process is waiting to enqueue or dequeue.
 	if (!buffer.read) {
-		printf("delete_buffer_421(): The buffer does not exist. Aborting.\n");
+		printf("delete_buffer(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 	
 	// Get rid of all existing nodes.
-	node_421_t *temp;
-	node_421_t *current = buffer.read->next;
+	node_t *temp;
+	node_t *current = buffer.read->next;
 	while (current != buffer.read) {
 		temp = current->next;
 		free(current);

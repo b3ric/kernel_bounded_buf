@@ -7,33 +7,33 @@
 
 #include "buffer.h"
 
-static ring_buffer_421_t buffer;
+static ring_buffer_t buffer;
 const int PRINT_N = 10;
 
 struct semaphore mutex;
 struct semaphore fill_count;
 struct semaphore empty_count;
 
-SYSCALL_DEFINE0(init_buffer_421){
+SYSCALL_DEFINE0(init_buffer){
 	
 	// root node
-	node_421_t *node;
+	node_t *node;
 	// remaining nodes
-	node_421_t *curr;
+	node_t *curr;
 	int i;
 
 	// Ensure we're not initializing a buffer that already exists.
 	if (buffer.read || buffer.write) {
-		printk("init_buffer_421(): Buffer already exists. Aborting.\n");
+		printk("init_buffer(): Buffer already exists. Aborting.\n");
 		return -1;
 	}
 
-	node = (node_421_t *) kmalloc(sizeof(node_421_t), GFP_KERNEL);
+	node = (node_t *) kmalloc(sizeof(node_t), GFP_KERNEL);
 	
 	curr = node;
 	// Note that we've already created one node, so i = 1.
 	for (i = 1; i < SIZE_OF_BUFFER; i++) {
-		curr->next = (node_421_t *) kmalloc(sizeof(node_421_t), GFP_KERNEL);
+		curr->next = (node_t *) kmalloc(sizeof(node_t), GFP_KERNEL);
 		curr = curr->next;
 	}
 	// Complete the chain.
@@ -50,11 +50,11 @@ SYSCALL_DEFINE0(init_buffer_421){
 	return 0;
 }
 
-SYSCALL_DEFINE1(enqueue_buffer_421, char * ,data){
+SYSCALL_DEFINE1(enqueue_buffer, char * ,data){
 
 	// Safety check
 	if (!buffer.write) {
-		printk("write_buffer_421(): The buffer does not exist. Aborting.\n");
+		printk("write_buffer(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 	
@@ -84,11 +84,11 @@ SYSCALL_DEFINE1(enqueue_buffer_421, char * ,data){
 	return 0;
 }
 
-SYSCALL_DEFINE1(dequeue_buffer_421,char *,data){
+SYSCALL_DEFINE1(dequeue_buffer,char *,data){
 	
 	// Safety check
 	if (!buffer.read) {
-		printk("delete_buffer_421(): The buffer does not exist. Aborting.\n");
+		printk("delete_buffer(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 				
@@ -118,14 +118,14 @@ SYSCALL_DEFINE1(dequeue_buffer_421,char *,data){
 	return 0;
 }
 
-SYSCALL_DEFINE0(delete_buffer_421){
+SYSCALL_DEFINE0(delete_buffer){
 	
-	node_421_t *temp;
-	node_421_t *curr = buffer.read->next;
+	node_t *temp;
+	node_t *curr = buffer.read->next;
 
 	// Tip: Don't call this while any process is waiting to enqueue or dequeue.
 	if (!buffer.read) {
-		printk("delete_buffer_421(): The buffer does not exist. Aborting.\n");
+		printk("delete_buffer(): The buffer does not exist. Aborting.\n");
 		return -1;
 	}
 	// Get rid of all existing nodes.

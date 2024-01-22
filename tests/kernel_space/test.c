@@ -6,10 +6,10 @@
 #include <pthread.h>
 #include <string.h>
 
-#define __NR_init_buffer_421 442
-#define __NR_enqueue_buffer_421 443
-#define __NR_dequeue_buffer_421 444
-#define __NR_delete_buffer_421 445
+#define __NR_init_buffer 442
+#define __NR_enqueue_buffer 443
+#define __NR_dequeue_buffer 444
+#define __NR_delete_buffer 445
 
 #define LOOP_COUNT 100000
 #define RAND_MOD 10 /* modulus for rand()*/
@@ -21,20 +21,20 @@
 int enq_char = 48; /* Char to be enqueued*/
 
 
-long init_buffer_421_syscall(void){
-	return syscall(__NR_init_buffer_421);
+long init_buffer_syscall(void){
+	return syscall(__NR_init_buffer);
 }
 
-long enqueue_buffer_421_syscall(char * data){
-	return syscall(__NR_enqueue_buffer_421, data);
+long enqueue_buffer_syscall(char * data){
+	return syscall(__NR_enqueue_buffer, data);
 }
 
-long dequeue_buffer_421_syscall(char * data){
-	return syscall(__NR_dequeue_buffer_421, data);
+long dequeue_buffer_syscall(char * data){
+	return syscall(__NR_dequeue_buffer, data);
 }
 
-long delete_buffer_421_syscall(void){
-	return syscall(__NR_delete_buffer_421);
+long delete_buffer_syscall(void){
+	return syscall(__NR_delete_buffer);
 }
 
 void * producer(void *args){
@@ -59,7 +59,7 @@ void * producer(void *args){
 		data[DATA_LENGTH] = '\0';
 		
 		enq_char++;
-		enqueue_buffer_421_syscall(data);
+		enqueue_buffer_syscall(data);
 	}
 	return NULL;
 }
@@ -81,14 +81,14 @@ void * consumer(void *args){
 		
 		// Null terminate
 		buf[DATA_LENGTH] = '\0';
-		dequeue_buffer_421_syscall(buf);
+		dequeue_buffer_syscall(buf);
 	}
 	return NULL;
 }
 
 int main(int argc, char *argv[]){
 	
-	init_buffer_421_syscall();
+	init_buffer_syscall();
 	
 	
 	pthread_t p,c;
@@ -98,7 +98,7 @@ int main(int argc, char *argv[]){
 	pthread_join(p, NULL);
 	pthread_join(c, NULL);
 	
-	delete_buffer_421_syscall();
+	delete_buffer_syscall();
 	
 	printf("Check dmesg\n");
 
