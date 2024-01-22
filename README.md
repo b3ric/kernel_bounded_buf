@@ -1,15 +1,11 @@
-# Linux Kernel Multithreaded Bounded Buffer
+# kernel_bounded_buf
 
-A producer-consumer scenario using a circular buffer and semaphores.
+Run a (circular buffer)[https://en.wikipedia.org/wiki/Circular_buffer] in kernel/user space. 
 
 ### Make and run:
 #### User space
 ```c
-make test
-./test
-```
-#### Kernel space
-```c
-make test
-./test
+cd spaces/kernel
+make kernel
+./buf
 ```
